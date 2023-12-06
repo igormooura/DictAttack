@@ -52,6 +52,13 @@ O código deve ser bem documentado, com presença de comentários explicando os 
 
 Para criptografar as senhas, o algoritmo SHA256 é utilizado. Ele é providenciado pela biblioteca OpenSSL no Linux.
 
+### Execução
+```
+make
+./dict_attack users.txt weakpassword.txt output.txt
+```
+
+
 ### Considerações Finais
 
 O projeto foi realizado por Igor de Oliveira Moura, cursando o 2° semestre de ciências da computação pelo Instituto Federal de Brasília para a matéria de programação de computadores 1, ministrada pelo professor Daniel Saad.
